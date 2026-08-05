@@ -3,7 +3,7 @@
 [![crates.io](https://img.shields.io/crates/v/rustdocs-mcp.svg?style=for-the-badge&color=fc8d62&logo=rust)](https://crates.io/crates/rustdocs-mcp)
 [![docs.rs](https://img.shields.io/badge/docs.rs-rustdocs_mcp-66c2a5?style=for-the-badge&labelColor=555555&logo=docs.rs)](https://docs.rs/rustdocs-mcp)
 [![license](https://img.shields.io/badge/license-MIT%20OR%20Apache--2.0-97ca00?style=for-the-badge)](LICENSE-MIT)
-[![github](https://img.shields.io/badge/github-JLFN/rustdocs-mcp-8da0cb?style=for-the-badge&labelColor=555555&logo=github)](https://github.com/JLFN/rustdocs-mcp)
+[![github](https://img.shields.io/badge/github-JLFN_rustdocs_mcp-8da0cb?style=for-the-badge&labelColor=555555&logo=github)](https://github.com/JLFN/rustdocs-mcp)
 
 An MCP server that answers questions about any published Rust crate from
 structured data — no HTML scraping, no cloning the repository. It reads two
