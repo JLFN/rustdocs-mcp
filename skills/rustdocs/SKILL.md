@@ -53,6 +53,18 @@ Answer questions about any published Rust crate with the rustdocs MCP server. It
 - For crates checked out locally on this machine (under /data), read the local source directly instead of the MCP; rustdocs is for published crates.
 - If the server is not listed, check it with: open-grok mcp doctor rustdocs.
 
+## Related Rust Skills
+
+Several Rust skills exist on this machine; route to the right one:
+
+- rust-build: build any Rust project with the standard /data/build builder (release binary into bin/).
+- crates-io: publish, yank, and manage this machine's crates on crates.io (cargo publish).
+- rust-env: install, update, or verify the Rust toolchain (rustup, rustc, cargo) and system build dependencies.
+- rust-dev-standards: quality baseline, CI pipeline, and linting rules when writing, reviewing, or editing Rust code.
+- develop-open-grok: building or changing the open-grok checkout specifically (repo-level skill).
+
+rustdocs is only for questions about published crates (versions, APIs, docs, source). For building, publishing, toolchain, or code-quality work, use the matching skill above instead.
+
 ## Example
 
 User: "What is the latest axum version and how do I add a route?"
