@@ -58,6 +58,19 @@ Known limitations
 - rustdoc JSON can be large (megabytes per crate); first fetch per
   crate@version takes a moment, subsequent calls are served from memory.
 
+Open Grok skill
+
+The repository ships the Open Grok skill at skills/rustdocs/SKILL.md. It
+teaches the agent when and how to use the rustdocs tools (version pinning,
+path form, caching, workflow). Install it by copying the skill folder into
+your user skills directory:
+
+    cp -r skills/rustdocs ~/.opengrok/skills/rustdocs
+
+For repo-level use inside a specific project, copy it to that project's
+.opengrok/skills or .agents/skills instead. After a session restart the
+agent loads the skill and uses the rustdocs tools automatically for crate
+
 License
 
 MIT OR Apache-2.0, at your option.
