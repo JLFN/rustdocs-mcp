@@ -16,7 +16,7 @@ public sources:
 
 The tools run over MCP stdio and return JSON, so any MCP-capable client
 (Open Grok, Claude, Codex, or your own tooling) can ask questions like "what
-is the latest axum", "how do I use `TorClient`", "does `Value` implement
+is the latest axum", "how do I use `axum::Router`", "does `Value` implement
 `Send`", or "show me the source of `serde::Deserialize`".
 
 - **Crate discovery** — search crates.io by query, fetch metadata, list every
