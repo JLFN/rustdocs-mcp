@@ -1,0 +1,5 @@
+# Build artifacts
+/target
+
+# Built binaries (use the standard builder: /data/build/linux/build.sh -p .)
+/bin
