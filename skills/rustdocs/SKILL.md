@@ -59,6 +59,7 @@ Several Rust skills exist on this machine; route to the right one:
 
 - rust-build: build any Rust project with the standard /data/build builder (release binary into bin/).
 - crates-io: publish, yank, and manage this machine's crates on crates.io (cargo publish).
+- repo-docs: standard repo layout, README template, and badges for any Rust repository.
 - rust-env: install, update, or verify the Rust toolchain (rustup, rustc, cargo) and system build dependencies.
 - rust-dev-standards: quality baseline, CI pipeline, and linting rules when writing, reviewing, or editing Rust code.
 - develop-open-grok: building or changing the open-grok checkout specifically (repo-level skill).
