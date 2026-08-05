@@ -7,7 +7,7 @@ description: >
   Use when the user asks "what is the latest version of X", "how do I use X",
   "what methods does X have", "does X implement Send", "show me the source
   of X", or runs /rustdocs.
-argument-hint: [crate] [path] [version]
+argument-hint: "[crate] [path] [version]"
 when-to-use: rust docs, crate docs, latest version of crate, what methods does X have, how do i use X, does X implement, crate source, rustdocs, /rustdocs, axum, serde, tokio
 user-invocable: true
 ---
