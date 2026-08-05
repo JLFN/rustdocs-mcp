@@ -2,9 +2,15 @@
 name = "rustdocs-mcp"
 version = "0.1.0"
 edition = "2021"
-description = "MCP server exposing Rust crate documentation from crates.io and docs.rs (rustdoc JSON) to AI assistants."
+rust-version = "1.88"
+description = "Rust crate documentation server for AI assistants via MCP"
 license = "MIT OR Apache-2.0"
+readme = "README.md"
 repository = "https://github.com/JLFN/rustdocs-mcp"
+homepage = "https://github.com/JLFN/rustdocs-mcp"
+documentation = "https://docs.rs/rustdocs-mcp"
+keywords = ["mcp", "crates-io", "docs", "rustdoc", "documentation"]
+categories = ["development-tools", "command-line-utilities"]
 
 [dependencies]
 anyhow = "1"
